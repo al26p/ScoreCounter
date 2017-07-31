@@ -1,0 +1,76 @@
+
+<html>
+<head>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+<div class="inline">
+    <div class="box">
+        <input class="name" type="text" value="Joueur 1">
+        <label class="prono" for="J1"><abbr title="Pronostics">Pronos</abbr></label>
+        <input class="prono" id="J1" value="0" />
+        <button id="down" onclick="modify_J1(0)">Â¨0</button>
+        <button id="up" onclick="modify_J1(1)">+1</button>
+        <button id="up" onclick="modify_J1(2)">+2</button>
+        <label for="J1s"><abbr title="Points">Points</abbr></label>
+        <input id="J1s" value="0" />
+        <button id="up" onclick="modify_J1s(1)">+1</button>
+        <button id="up" onclick="modify_J1s(2)">+2</button>
+        <button id="up" onclick="modify_J1s(3)">+3</button>
+    </div>
+    
+    <div class="box1">
+        <input class="name" type="text" value="Joueur 2">
+        <label class="prono" for="J2"><abbr title="Pronostics">Pronos</abbr></label>
+        <input class="prono" id="J2" value="0" />
+        <button id="down" onclick="modify_J2(0)">Â¨0</button>
+        <button id="up" onclick="modify_J2(1)">+1</button>
+        <button id="up" onclick="modify_J2(2)">+2</button>
+        <label for="J2s"><abbr title="Points">Points</abbr></label>
+        <input id="J2s" value="0" />
+        <button id="up" onclick="modify_J2s(1)">+1</button>
+        <button id="up" onclick="modify_J2s(2)">+2</button>
+        <button id="up" onclick="modify_J2s(3)">+3</button>
+    </div>
+    
+    <div class="box2">
+        <input class="name" type="text" value="Joueur 3">
+        <label class="prono" for="J3"><abbr title="Pronostics">Pronos</abbr></label>
+        <input class="prono" id="J3" value="0" />
+        <button id="down" onclick="modify_J3(0)">Â¨0</button>
+        <button id="up" onclick="modify_J3(1)">+1</button>
+        <button id="up" onclick="modify_J3(2)">+2</button>
+        <label for="J3s"><abbr title="Points">Points</abbr></label>
+        <input id="J3s" value="0" />
+        <button id="up" onclick="modify_J3s(1)">+1</button>
+        <button id="up" onclick="modify_J3s(2)">+2</button>
+        <button id="up" onclick="modify_J3s(3)">+3</button>
+    </div>
+    
+    <div class="box3">
+        <input class="name" type="text" value="Joueur 4">
+        <label class="prono" for="J4"><abbr title="Pronostics">Pronos</abbr></label>
+        <input class="prono" id="J4" value="0" />
+        <button id="down" onclick="modify_J4(0)">Â¨0</button>
+        <button id="up" onclick="modify_J4(1)">+1</button>
+        <button id="up" onclick="modify_J4(2)">+2</button>
+        <label for="J4s"><abbr title="Points">Points</abbr></label>
+        <input id="J4s" value="0" />
+        <button id="up" onclick="modify_J4s(1)">+1</button>
+        <button id="up" onclick="modify_J4s(2)">+2</button>
+        <button id="up" onclick="modify_J4s(3)">+3</button>
+    </div>
+    
+    <div class="box_float">
+        <input class="name" type="text" value="Info partie">
+        <label for="CARD"><abbr title="Cartes Ã  distribuer">Nb de cartes</abbr></label>
+        <input  id="CARD" value="5" />
+        <label for="MJ"><abbr title="NÂ° du joueur qui distribue">Matre du jeu</abbr></label>
+        <input  id="MJ" value="1" />
+        <button id="up" onclick="modify_Game(0)">RaZ</button>
+        <button id="down" onclick="modify_Game(-1)">Prochain Tour</button>
+        
+</div>
+</body>
+</html>
